@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <tool name="Copy Aframe Transforms" label="Copy Aframe Transforms" icon="PLASMA_App">
+    <script scriptType="python"><![CDATA[n = hou.selectedItems()[0]
+
+print('position="{0} {1} {2}" rotation="{3} {4} {5}" scale="{6} {7} {8}"'.format(
+    n.evalParm("tx"),
+    n.evalParm("ty"),
+    n.evalParm("tz"),
+    n.evalParm("rx"),
+    n.evalParm("ry"),
+    n.evalParm("rz"),
+    n.evalParm("sx"),
+    n.evalParm("sy"),
+    n.evalParm("sz")
+))]]></script>
+  </tool>
+</shelfDocument>

@@ -1,0 +1,52 @@
+{
+	"fileversion":"18.5.408",
+	"name":"KK_Modeling",
+	"categories":"Standard",
+	"pane":"scene",
+	"label":"KK Modeling",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"PolyExtrude",
+			"type":"script_action",
+			"icon":"SOP_polyextrude",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polyextrude::2.0')"
+		},
+		"1":{
+			"label":"PolyBridge",
+			"type":"script_action",
+			"icon":"SOP_polybridge",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polybridge')"
+		},
+		"2":{
+			"label":"PolyBevel",
+			"type":"script_action",
+			"icon":"SOP_polybevel",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polybevel::3.0')"
+		},
+		"3":{
+			"label":"Fuse",
+			"type":"script_action",
+			"icon":"SOP_fuse",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')"
+		},
+		"4":{
+			"label":"PolySplit",
+			"type":"script_action",
+			"icon":"SOP_polysplit",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polysplit::2.0')"
+		},
+		"5":{
+			"label":"PolyFill",
+			"type":"script_action",
+			"icon":"SOP_polyfill",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polyfill')"
+		},
+		"6":{
+			"label":"Edge Loop",
+			"type":"script_action",
+			"icon":"SHELF_edgeloop",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_edgeloop')"
+		}
+	}
+}

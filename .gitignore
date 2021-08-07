@@ -1,0 +1,11 @@
+backup
+
+config/Help
+config/Icons
+config/Dialogs
+
+SideFXLabs
+
+*.cache
+*.history
+*.pyc

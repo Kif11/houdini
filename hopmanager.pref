@@ -1,0 +1,12 @@
+CreateBackups := 1;
+LeaveDefaultsUnchanged := 0;
+OperatorTypeBarMode := "fullmenu";
+PreferIndexFile := 0;
+PreferInternal := 0;
+PreferLatestDate := 1;
+SafeguardOpDefs := 0;
+SaveToHipFile := 1;
+SaveUnlockedToHipFile := 0;
+UseOplibrariesFiles := 0;
+WarnDummyOpsOnLoad := 1;
+WarnOutOfDateOps := 1;

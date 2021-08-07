@@ -1,0 +1,6 @@
+DisplayIcons := 1;
+ForbidOutsideParms := 1;
+PrefixDroppedLabel := 0;
+PrefixDroppedName := 0;
+PromoteInvisible := 0;
+ShowInvisibleParms := 0;
