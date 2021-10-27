@@ -25,10 +25,10 @@
 			"script":"radialmenu.runShelfTool(kwargs, 'sop_polybevel::3.0')"
 		},
 		"3":{
-			"label":"Fuse",
+			"label":"Point Weld",
 			"type":"script_action",
-			"icon":"SOP_fuse",
-			"script":"radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')"
+			"icon":"SOP_pointweld",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_pointweld')"
 		},
 		"4":{
 			"label":"PolySplit",

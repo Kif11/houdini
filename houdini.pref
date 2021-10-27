@@ -149,5 +149,5 @@ ui.parm.syntax := 1;
 ui.textport.help := 1;
 ui.textport.paren := 1;
 ui.textport.syntax := 1;
-undomemlimit.val := 100000;
+undomemlimit.val := 99328;
 wiretoggle.val := "Wireframe Ghost";

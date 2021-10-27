@@ -2,10 +2,10 @@
     "path": "$SIDEFXLABS", 
     "load_package_once": true, 
     "enable": "houdini_version >= '18.5' and houdini_version < '18.6'", 
-    "version": "18.5.563", 
+    "version": "18.5.408", 
     "env": [
         {
-            "SIDEFXLABS": "$HOUDINI_PACKAGE_PATH/../SideFXLabs/18.5.563\\SideFXLabs18.5"
+            "SIDEFXLABS": "$HOUDINI_PACKAGE_PATH/../SideFXLabs/18.5.408\\SideFXLabs18.5"
         }, 
         {
             "PATH": {
